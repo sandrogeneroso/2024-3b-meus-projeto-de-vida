@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Lobster&display=swap');
+
+:root{
+    --roxo-escuro: #4C0033;
+    --violeta-: #790252;
+    --rosa-forte: #AF0171;
+    --rosa-fraco: #E80F88;
+    --font-titulo: "Lobster", monospace;
+    --font-texto: "Itim", serif;
+
+}
+
+body{
+    background-color: var(--roxo-escuro);
+}
