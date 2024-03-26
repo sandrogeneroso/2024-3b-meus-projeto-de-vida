@@ -12,7 +12,7 @@
 
 body{
     background-color: var(--roxo-escuro);
-    color: var(--rosa-fraco);
+    color: white;
     font-family: var(--font-texto);
 }
 
@@ -64,9 +64,35 @@ body{
     border-radius: 0 0 40px 40px;
 }
 
-.ativo{
+.botao.ativo{
     background-color: var(--rosa-forte);
     border-bottom: 4px solid var(--rosa-fraco)
+}
+
+.abas-texto{
+    background-color: var(--rosa-forte);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+
+}
+
+.aba-conteudo.ativo{
+    display: block;
+}
+
+.aba-conteudo{
+    display: none;
+}
+
+.aba-conteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+
+.aba-conteudo-titulo-secundario{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px){
