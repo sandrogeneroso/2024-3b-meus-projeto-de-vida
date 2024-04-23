@@ -21,7 +21,7 @@ function comecaCronometro() {
     sectInterval(atualizaCronometro, 1000);
 }
 
-comecaCronometro();
+//comecaCronometro();
 
 let tempoAtual = new Date()
 
