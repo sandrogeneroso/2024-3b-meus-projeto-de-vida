@@ -11,8 +11,12 @@ const tempoObjetivo04 = new Date("2024-07-06T00:00:00")
 const tempos = [tempoObjetivo01, tempoObjetivo02, tempoObjetivo03, tempoObjetivo04];
 
 function atualizaCronometro() {
+
     for (let i = 0; i < tempos.length; i++) {
-        contadores[i].textContent = calculaTempo(tempos[i])
+        document.getElementByI("dias"+i).textContent = calculaTempo(tempos[i])[0];
+        document.getElementByI("horas"+i).textContent = calculaTempo(tempos[i])[1];
+        document.getElementByI("minutos"+i).textContent = calculaTempo(tempos[i])[2];
+        document.getElementByI("segundos"+i).textContent = calculaTempo(tempos[i])[3];
     }
 }
 
